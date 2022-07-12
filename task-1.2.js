@@ -28,6 +28,7 @@ try {
     writeTxtStream,
     (err) => {
       if (err) throw err;
+      console.log('Txt file was successfully created');
     });
 } catch (err) {
   console.error(err);

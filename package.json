@@ -7,7 +7,7 @@
     "nodemon": "^2.0.19"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "task2": "nodemon ./task-1.2.js"
   },
   "repository": {
     "type": "git",
