@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-st-22-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task1": "nodemon ./task-1.1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeySerzhan/nodejs-st-22-node.git"
+  },
+  "author": "Sergey Serzhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeySerzhan/nodejs-st-22-node/issues"
+  },
+  "homepage": "https://github.com/SergeySerzhan/nodejs-st-22-node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
