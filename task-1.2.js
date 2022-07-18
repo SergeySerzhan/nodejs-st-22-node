@@ -16,7 +16,8 @@ try {
 // options to format number data to number type
   const csvOptions = {
     colParser,
-    checkType: true
+    checkType: true,
+    ignoreColumns: /amount/
   };
 
   pipeline(readCsvStream,
